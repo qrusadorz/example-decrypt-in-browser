@@ -1,0 +1,48 @@
+{
+  "name": "example-decrypt-in-browser",
+  "version": "1.0.0",
+  "description": "Encryption and decryption on the browser.",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "esm": "^3.2.25",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.3.1"
+  },
+  "scripts": {
+    "analyze": "npx source-map-explorer \"./build/static/js/*.js\"",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qrusadorz/example-decrypt-in-browser.git"
+  },
+  "author": "qrusadorz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qrusadorz/example-decrypt-in-browser/issues"
+  },
+  "homepage": "https://github.com/qrusadorz/example-decrypt-in-browser#readme"
+}
